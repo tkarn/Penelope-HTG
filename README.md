@@ -16,9 +16,9 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 2. [*HTG-validation_RS-GGI-SET-Pen.spin.R*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-validation_RS-GGI-SET-Pen.spin.R):  The R-script that generates this R-Markdown file and the output below.
 
 ## Input files:
-[*HTG-OncBiomarkerPanel n2559-Genelist.txt*]("https://github.com/tkarn/Penelope-HTG/blob/main/HTG-OncBiomarkerPanel n2559-Genelist.txt"): list of genes from HTG-panel.
+[*HTG-OncBiomarkerPanel_n2559-Genelist.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-OncBiomarkerPanel_n2559-Genelist.txt): list of genes from HTG-panel.
 
-[*SET-ERPR-genes_PMID 31231679.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/SET-ERPR-genes_PMID 31231679.txt): SET-ER/PR index genelist from PMID 31231679 (Sinn 2019) Suppl.Table 2.
+[*SET-ERPR-genes_PMID_31231679.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/SET-ERPR-genes_PMID_31231679.txt): SET-ER/PR index genelist from PMID 31231679 (Sinn 2019) Suppl.Table 2.
 
 [*Penelope_n355genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n355genes_info.txt): 355 Penelope signature infos.
 
