@@ -12,8 +12,8 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 ## This resource contains the following data regarding the analyses described in the paper:
 
 
-1. [*HTG-validation_RS-GGI-SET-Pen.spin.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-validation_RS-GGI-SET-Pen.spin.pdf):  An R Markdown file containing the analyses and figures comparing Recurrence-Score, GGI, SET-Index in TCGA samples based on all genes and the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
-2. [*HTG-validation_RS-GGI-SET-Pen.spin.R*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-validation_RS-GGI-SET-Pen.spin.R):  The R-script that generates this R-Markdown file and the output below.
+1. [*HTG-validation_RS-GGI-SET-Pen.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-validation_RS-GGI-SET-Pen.pdf):  An R Markdown file containing the analyses and figures comparing Recurrence-Score, GGI, SET-Index in TCGA samples based on all genes and the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
+2. [*HTG-validation_RS-GGI-SET-Pen.R*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-validation_RS-GGI-SET-Pen.R):  The R-script that generates this R-Markdown file and the output below.
 
 ## Input files:
 [*HTG-OncBiomarkerPanel_n2559-Genelist.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-OncBiomarkerPanel_n2559-Genelist.txt): list of genes from HTG-panel.
