@@ -22,4 +22,13 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 [*Penelope_n355genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n355genes_info.txt): 355 Penelope signature infos.
 
+
+
+## This resource contains the following data regarding the analyses described in the paper:
+
+
+3. [*AIMS-HTG-validation.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/AIMS-HTG-validation.pdf):  An R Markdown file calculating the AIMS subtypes for TCGA samples based on either all genes from the AIMS rules or only on the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
+4. [*AIMS-HTG-validation.R*](https://github.com/tkarn/Penelope-HTG/blob/main/AIMS-HTG-validation.R):  The R-script that generates this R-Markdown file.
+
+
 ************************************************************
