@@ -21,7 +21,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 [*SET-ERPR-genes_PMID_31231679.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/SET-ERPR-genes_PMID_31231679.txt): SET-ER/PR index genelist from PMID 31231679 (Sinn 2019) Suppl.Table 2.
 
-[*Penelope_n355genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n355genes_info.txt): 355 Penelope signature infos.
+[*Penelope_n335genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n335genes_info.txt): 335 Penelope signature infos.
 
 #### Output files:
 [*1_Oncotype-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/1_Oncotype-HTG-scatter.svg)
@@ -45,7 +45,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 6. [*2024-08-26-HRscat_BiopResec_335genes_Diff-Colors.R*](https://github.com/tkarn/Penelope-HTG/blob/main/2024-08-26-HRscat_BiopResec_335genes_Diff-Colors.R):  The R-script that generates this R-Markdown file.
 
 #### Input files:
-[*Penelope_n355genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n355genes_info.txt): 355 Penelope signature infos.
+[*Penelope_n335genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n335genes_info.txt): 335 Penelope signature infos.
 
 [*HTG-Pathways.xlsx*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-Pathways.xlsx): Pathway information (HTG and Hallmark) for all genes in the HTG EdgeSeq Oncology Biomarker Panel.
 
