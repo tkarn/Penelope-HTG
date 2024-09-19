@@ -41,29 +41,8 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 
 ### Relationship of gene clusters and survival:
-5. [*2024-08-26-HRscat_BiopResec_335genes_Diff-Colors.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/2024-08-26-HRscat_BiopResec_335genes_Diff-Colors.pdf):  An R Markdown file of the analysis comparing the prognostic value of individual genes and their association with gene clusters from unsupervised clustering of Penelope-B samples.
-6. [*2024-08-26-HRscat_BiopResec_335genes_Diff-Colors.R*](https://github.com/tkarn/Penelope-HTG/blob/main/2024-08-26-HRscat_BiopResec_335genes_Diff-Colors.R):  The R-script that generates this R-Markdown file.
-
-#### Input files:
-[*Penelope_n335genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/Penelope_n335genes_info.txt): 335 Penelope signature infos.
-
-[*HTG-Pathways.xlsx*](https://github.com/tkarn/Penelope-HTG/blob/main/HTG-Pathways.xlsx): Pathway information (HTG and Hallmark) for all genes in the HTG EdgeSeq Oncology Biomarker Panel.
-
-[*HR_quadrant_plot_biopsy_resec_ALL335genes.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/HR_quadrant_plot_biopsy_resec_ALL335genes.txt): Hazard ratios for DFS for all 335 genes from the Penelope-B clusters, based on pre-treatment and post-treatment samples.
-
-#### Output files:
-[*1_HRscat_BiopResec_335genes_col-mainclust_labs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/1_HRscat_BiopResec_335genes_col-mainclust_labs.svg)
-
-[*2_HRscat_BiopResec_335genes_col-mainclust_Nolabs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/2_HRscat_BiopResec_335genes_col-mainclust_Nolabs.svg)
-
-[*3_HRscat_BiopResec_335genes_col-GeneClass_labs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/3_HRscat_BiopResec_335genes_col-GeneClass_labs.svg)
-
-[*4_HRscat_BiopResec_335genes_col-GeneClass_Nolabs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/4_HRscat_BiopResec_335genes_col-GeneClass_Nolabs.svg)
-
-[*5_HRscat_BiopResec_335genes_col-subclust_labs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/5_HRscat_BiopResec_335genes_col-subclust_labs.svg)
-
-[*6_HRscat_BiopResec_335genes_col-subclust_Nolabs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/6_HRscat_BiopResec_335genes_col-subclust_Nolabs.svg)
-
+[*Subdirectory: SuppFig4*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig4):  
+Analysis comparing the prognostic value of individual genes and their association with gene clusters from unsupervised clustering of Penelope-B samples.
 
 
 ************************************************************
