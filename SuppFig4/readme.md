@@ -33,7 +33,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 [*6_HRscat_BiopResec_335genes_col-subclust_Nolabs.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig4/6_HRscat_BiopResec_335genes_col-subclust_Nolabs.svg)
 
-[*SFig4*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig4/SFig4): Aligned figure
+[*SFig4.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig4/SFig4.pdf): Aligned figure
 
 
 ************************************************************
