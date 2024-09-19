@@ -1,5 +1,4 @@
-# Penelope-HTG
-
+## Penelope-HTG/AIMS
 
 ## Supplementary Resource to:  
 
