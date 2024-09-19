@@ -27,7 +27,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 [*2a_GGI-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2a_GGI-HTG-scatter.svg): GGI among ERpos+ERneg TCGA
 [*2b_GGI-HTG-scatter_ERpos.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2b_GGI-HTG-scatter_ERpos.svg):  Supp.Fig.8b (ERpos)
 [*3a_SET-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3a_SET-HTG-scatter.svg):  SET among ERpos+ERneg TCGA
-[*3b_SET-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3b_SET-HTG-scatter.svg):  Supp.Fig.8C (ERpos)
+[*3b_SET-HTG-scatter-ERpos.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3b_SET-HTG-scatter-ERpos.svg):  Supp.Fig.8C (ERpos)
 [*4_Pen-scatters.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/4_Pen-scatters.svg):  Supp.Fig.9
 
 ************************************************************
