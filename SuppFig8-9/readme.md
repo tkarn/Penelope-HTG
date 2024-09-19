@@ -24,10 +24,9 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 #### Output files:
 [*1_Oncotype-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/1_Oncotype-HTG-scatter.svg) 
-
-[*2a_GGI-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2a_GGI-HTG-scatter.svg)
-[*2b_GGI-HTG-scatter_ERpos.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2b_GGI-HTG-scatter_ERpos.svg)
-[*3a_SET-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3a_SET-HTG-scatter.svg)
-[*4_Pen-scatters.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/4_Pen-scatters.svg)
+[*2a_GGI-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2a_GGI-HTG-scatter.svg) 
+[*2b_GGI-HTG-scatter_ERpos.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2b_GGI-HTG-scatter_ERpos.svg) 
+[*3a_SET-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3a_SET-HTG-scatter.svg) 
+[*4_Pen-scatters.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/4_Pen-scatters.svg) 
 
 ************************************************************
