@@ -23,10 +23,10 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 [*Penelope_n335genes_info.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/Penelope_n335genes_info.txt): 335 Penelope signature infos.
 
 #### Output files:
-[*1_Oncotype-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/1_Oncotype-HTG-scatter.svg): 
-[*2a_GGI-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2a_GGI-HTG-scatter.svg): 
-[*2b_GGI-HTG-scatter_ERpos.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2b_GGI-HTG-scatter_ERpos.svg) 
-[*3a_SET-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3a_SET-HTG-scatter.svg) 
+[*1_Oncotype-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/1_Oncotype-HTG-scatter.svg): Supp.Fig.8a
+[*2a_GGI-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2a_GGI-HTG-scatter.svg): GGI among ERpos+ERneg TCGA
+[*2b_GGI-HTG-scatter_ERpos.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/2b_GGI-HTG-scatter_ERpos.svg):  Supp.Fig.8b
+[*3a_SET-HTG-scatter.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/3a_SET-HTG-scatter.svg):  Supp.Fig.8C
 [*4_Pen-scatters.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig8-9/4_Pen-scatters.svg) 
 
 ************************************************************
