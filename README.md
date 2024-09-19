@@ -31,15 +31,13 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 [*4_Pen-scatters.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/4_Pen-scatters.svg)
 
 
-
-
+************************************************************
 
 ### AIMS subtyping based on the HTG gene panel:
 
 [*Subdirectory: AIMS*](https://github.com/tkarn/Penelope-HTG/blob/main/AIMS/):  Calculation of the AIMS subtypes for TCGA samples based on either all genes from the AIMS rules or only on the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
 
-
-
+************************************************************
 
 ### Relationship of gene clusters and survival:
 [*Subdirectory: SuppFig4*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig4/):  
