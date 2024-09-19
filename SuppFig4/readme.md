@@ -1,5 +1,4 @@
-# Penelope-HTG
-
+## Penelope-HTG / SuppFig4
 
 ## Supplementary Resource to:  
 
