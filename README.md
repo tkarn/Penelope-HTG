@@ -24,7 +24,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 ************************************************************
 
 ### Relationship of gene clusters and survival:
-[*Subdirectory: SuppFig4*](https://github.com/tkarn/Penelope-HTG/blob/main/SuppFig4/):  
+[*Subdirectory: Fig4*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig4/):  
 Analysis comparing the prognostic value of individual genes and their association with gene clusters from unsupervised clustering of Penelope-B samples.
 
 ************************************************************
