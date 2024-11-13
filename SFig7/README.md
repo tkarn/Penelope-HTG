@@ -12,14 +12,11 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 ### Figure S7: Comparison of the genes included in the main Penelope-B gene clusters with the TCGA cohort.
 
-1. [*SFigS7.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig7/SFigS7.pdf):  An R Markdown file creating Figure S7.
-2. [*SFigS5_GSEA_scatterplot.R*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/SFigS5_GSEA_scatterplot.R):  The R-script that generates this R-Markdown file.
+1. [*n335genes_TCGA_SFig7.cdt*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig7/n335genes_TCGA_SFig7.cdt): A clustered data table (cdt) format file which can be opened in JavaTreeView (https://jtreeview.sourceforge.net/). The file contains the median centered RNA-Seq data of the 355 differentially expressed genes for 1215 BRCA samples from TCGA. TCGA data were downloaded from UCSC cancer browser (https://genome-cancer.ucsc.edu/; dataset ID TCGA_BRCA_exp_HiSeqV2, version "2015-01-28"). This dataset contains 1095 primary tumors, 7 metastasis, 113 normal tissue.
+samples.
+2. [*n335genes_TCGA_SFig7.atr*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig7/n335genes_TCGA_SFig7.atr): Corresponding Array Tree file.
+3. [*n335genes_TCGA_SFig7.jtv*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig7/n335genes_TCGA_SFig7.jtv): Corresponding Java Tree View settings file.
 
-#### Input files:
-[*biopsy_resect_HR_basedGSEA_20092024.txt*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/biopsy_resect_HR_basedGSEA_20092024.txt): Normalized Enrichment Scores (NES) of pathways for iDFS prognosis from biopsy and resect samples.
-
-#### Output files:
-[*SFig5.svg*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/SFig5.svg): Supp.Fig.5
 
 ************************************************************
 
