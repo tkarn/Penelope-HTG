@@ -28,3 +28,9 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 Analysis comparing the prognostic value of individual genes and their association with gene clusters from unsupervised clustering of Penelope-B samples.
 
 ************************************************************
+
+### Analysis of prognostic gene sets in pre-Tx biopsies and post-Tx residual tumors:
+[*Subdirectory: SFig5*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/):  
+Normalized Enrichment Scores (NES) of pathways for iDFS prognosis from Gene Set Enrichment Analysis (GSEA) are compared for pre-Tx biopsies and post-Tx residual tumors in a scatter plot.
+
+************************************************************
