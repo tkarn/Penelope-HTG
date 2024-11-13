@@ -13,7 +13,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 
 ### Gene signature validations and comparisons based on the HTG gene panel
 
-[*Subdirectory:  Fig7_SFig9*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig7_SFig9/):  AAnalyses and figures comparing Recurrence-Score, GGI, SET-Index in TCGA samples based on all genes and the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
+[*Subdirectory:  Fig7_SFig9*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig7_SFig9/):  Analyses and figures comparing Recurrence-Score, GGI, SET-Index in TCGA samples based on all genes and the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
 
 ************************************************************
 
