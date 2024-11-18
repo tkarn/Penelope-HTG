@@ -46,7 +46,9 @@ Analysis comparing the prognostic value of individual genes and their associatio
 [*Subdirectory: Fig8*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig8/):  
 UMAPs for 1080 tumor samples (540 pre-Tx and 540 paired post-Tx samples) with euclidean metric for the set of 335 differentially regulated genes between pre-Tx and post-TX samples, coloured by AIMS classification and AC subtypes.
 
-************************************************************### Analysis of prognostic gene sets in pre-Tx biopsies and post-Tx residual tumors:
+************************************************************
+
+### Analysis of prognostic gene sets in pre-Tx biopsies and post-Tx residual tumors:
 [*Subdirectory: SFig5*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/):  
 Normalized Enrichment Scores (NES) of pathways for iDFS prognosis from Gene Set Enrichment Analysis (GSEA) are compared for pre-Tx biopsies and post-Tx residual tumors in a scatter plot.
 
