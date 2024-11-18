@@ -25,7 +25,7 @@ Sankey diagrams of paired analysis of 540 tumors before and after therapy and in
 ************************************************************
 
 ### Differentially expressed genes from paired analysis of 540 tumors before and after neoadjuvant therapy and corresponding sample clustering:
-[*Subdirectory: Fig3*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig3/):  
+[*Subdirectory: Fig3_FigS2*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig3_FigS2/):  
 Code and data to generate Figure 3 and Suppl. Fig.S2 from the paper. Volcano plot of differentially expressed genes from paired analysis of 540 tumors before and after neoadjuvant therapy. Clustered Heatmap containing 1080 tumor samples (540 pre-Tx and 540 post-Tx) as well as 335 differentially expressed genes.
 
 ************************************************************
