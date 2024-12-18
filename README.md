@@ -38,7 +38,7 @@ Analysis comparing the prognostic value of individual genes and their associatio
 
 ### Gene signature validations and comparisons based on the HTG gene panel
 
-[*Subdirectory:  Fig7_SFig9*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig7_SFig9/):  Analyses and figures comparing Recurrence-Score, GGI, SET-Index in TCGA samples based on all genes and the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
+[*Subdirectory:  Fig7_SFig7*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig7_SFig7/):  Analyses and figures comparing Recurrence-Score, GGI, SET-Index in TCGA samples based on all genes and the subset of genes available among the 2549 genes from the HTG EdgeSeq Oncology Biomarker Panel measured on the HTG-Molecular EdgeSeq platform.
 
 ************************************************************
 
@@ -49,13 +49,13 @@ UMAPs for 1080 tumor samples (540 pre-Tx and 540 paired post-Tx samples) with eu
 ************************************************************
 
 ### Analysis of prognostic gene sets in pre-Tx biopsies and post-Tx residual tumors:
-[*Subdirectory: SFig5*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/):  
+[*Subdirectory: SFig3*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig3/):  
 Normalized Enrichment Scores (NES) of pathways for iDFS prognosis from Gene Set Enrichment Analysis (GSEA) are compared for pre-Tx biopsies and post-Tx residual tumors in a scatter plot.
 
 ************************************************************
 
 ### Comparison of the genes included in the main Penelope-B gene clusters with the TCGA cohort:
-[*Subdirectory: SFig7*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig7/):  
+[*Subdirectory: SFig5*](https://github.com/tkarn/Penelope-HTG/blob/main/SFig5/):  
 A clustered data table (cdt) format file which can be opened in JavaTreeView. The file contains the median centered RNA-Seq data of the 355 differentially expressed genes for 1215 BRCA samples from TCGA.
 
 ************************************************************
