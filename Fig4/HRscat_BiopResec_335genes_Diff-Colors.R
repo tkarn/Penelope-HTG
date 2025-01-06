@@ -373,7 +373,9 @@ dev.off()
 
 # Generate an additional plot without gene names:  ####
 
-# plot without gene labels but increased dots
+# plot WITHOUT gene labels but increased dots
+#              and increased text size in legend
+
 scatplot2 <- ggplot(df, aes(x = pre.Tx, y = post.Tx, 
                             color = Cluster_1080pairedSamples), 
                     guides(fill = FALSE, color = FALSE)) +
@@ -385,41 +387,44 @@ scatplot2 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
         plot.margin = margin(1, 1, 1, 1, "cm"),axis.title=element_blank(),
         axis.ticks.length=unit(.2, "cm")) +
   scale_x_continuous(limits = c(0.25, 4.7),  n.breaks=7) +
-  scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7) +
-  theme(plot.title = element_text(hjust = 0.5,vjust = 10,))
+  scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7)
 
 
-# Add annotations  
+# Add ONLY SELECTED annotations WITH INCREASED TEXT SIZES
 
 p2 <- scatplot2 +
   annotate("segment", x = -Inf, xend = Inf, y = 1, linewidth=1, yend = 1) +
   annotate("segment", x = 1, xend = 1, y = -Inf, linewidth=1, yend = Inf) +
   annotate("text", x = -Inf, y = 1, 
            label = "inverse HR in post.Tx \u2192 improved survival", 
-           angle = 90,size=4, hjust=0.5, vjust=-1.0,  color = "red") +
+           angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
   annotate("text", x = 1, y = -Inf, 
            label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.75,vjust=-36, size=4, color = "blue") +
-  annotate("text", x = -Inf, y = Inf, 
-           label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
-           vjust = 1, hjust=0, size=3.5) +
-  annotate("text", x = -Inf, y = -Inf, 
-           label = "poor iDFS in post.Tx & pre.Tx", 
-           vjust = 0, hjust=0, size=3.5) +
-  annotate("text", x = Inf, y = Inf, 
-           label = "good iDFS in post.Tx & pre.Tx", 
-           vjust = 1, hjust=1, size=3.5) +
-  annotate("text", x = Inf, y = -Inf, 
-           label = "good iDFS in pre.Tx &\npoor iDFS in post.Tx", 
-           vjust = 0, hjust=1, size=3.5) +
+           hjust=-1.00,vjust=-20, size=7, color = "blue") +
+  # annotate("text", x = -Inf, y = Inf, 
+  #          label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
+  #          vjust = 1, hjust=0, size=5) +
+  # annotate("text", x = -Inf, y = -Inf, 
+  #          label = "poor iDFS in post.Tx & pre.Tx", 
+  #          vjust = 0, hjust=0, size=5) +
+  # annotate("text", x = Inf, y = Inf, 
+  #          label = "good iDFS in post.Tx & pre.Tx", 
+  #          vjust = 1, hjust=1, size=5) +
+  # annotate("text", x = Inf, y = -Inf, 
+  #          label = "good iDFS in pre.Tx &\npoor iDFS in post.Tx", 
+  #          vjust = 0, hjust=1, size=5) +
   coord_cartesian(clip = "off")  # Allow annotations to be outside the plot area
 
 
-# Place x- and y-axis at "Hazard Ratio = 1",   and include color legend:
+# Place x- and y-axis at "Hazard Ratio = 1",
+#   and include color legend with increased text size:
 
 p2 <- shift_axis_y(p2, y=1)
 p2 <- shift_axis_x(p2, x=1) +
-  labs(color = "Gene clusters")  + theme(legend.position = c(0.9, 0.8))
+  labs(color = "Gene clusters")  + 
+  theme(legend.position = c(0.9, 0.85),
+        legend.title=element_text(size=28), # increase legend title size
+        legend.text=element_text(size=28))  # increase legend text size
 
 
 ggsave ("./2_HRscat_BiopResec_335genes_col-mainclust_Nolabs.svg", 
@@ -510,7 +515,9 @@ dev.off()
 
 # Generate an additional plot without Gene labels:  ####
 
-# plot without gene labels but increased dots
+# plot WITHOUT gene labels but increased dots
+#              and increased text size in legend
+
 scatplot4 <- ggplot(df, aes(x = pre.Tx, y = post.Tx, 
                             color = gene.class), 
                     guides(fill = FALSE, color = FALSE)) +
@@ -522,39 +529,42 @@ scatplot4 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
         plot.margin = margin(1, 1, 1, 1, "cm"),axis.title=element_blank(),
         axis.ticks.length=unit(.2, "cm")) +
   scale_x_continuous(limits = c(0.25, 4.7),  n.breaks=7) +
-  scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7) +
-  theme(plot.title = element_text(hjust = 0.5,vjust = 10,))
+  scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7)
 
-# Add annotations
+# Add ONLY SELECTED annotations WITH INCREASED TEXT SIZES
 
 p4 <- scatplot4 +
   annotate("segment", x = -Inf, xend = Inf, y = 1, linewidth=1, yend = 1) +
   annotate("segment", x = 1, xend = 1, y = -Inf, linewidth=1, yend = Inf) +
   annotate("text", x = -Inf, y = 1, 
            label = "inverse HR in post.Tx \u2192 improved survival", 
-           angle = 90,size=4, hjust=0.5, vjust=-1.0,  color = "red") +
+           angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
   annotate("text", x = 1, y = -Inf, 
            label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.75,vjust=-36, size=4, color = "blue") +
-  annotate("text", x = -Inf, y = Inf, 
-           label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
-           vjust = 1, hjust=0, size=3.5) +
-  annotate("text", x = -Inf, y = -Inf, 
-           label = "poor iDFS in post.Tx & pre.Tx", 
-           vjust = 0, hjust=0, size=3.5) +
-  annotate("text", x = Inf, y = Inf, 
-           label = "good iDFS in post.Tx & pre.Tx", 
-           vjust = 1, hjust=1, size=3.5) +
-  annotate("text", x = Inf, y = -Inf, 
-           label = "good iDFS in pre.Tx &\npoor iDFS in post.Tx", 
-           vjust = 0, hjust=1, size=3.5) +
+           hjust=-1.00,vjust=-20, size=7, color = "blue") +
+  # annotate("text", x = -Inf, y = Inf, 
+  #          label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
+  #          vjust = 1, hjust=0, size=5) +
+  # annotate("text", x = -Inf, y = -Inf, 
+  #          label = "poor iDFS in post.Tx & pre.Tx", 
+  #          vjust = 0, hjust=0, size=5) +
+  # annotate("text", x = Inf, y = Inf, 
+  #          label = "good iDFS in post.Tx & pre.Tx", 
+  #          vjust = 1, hjust=1, size=5) +
+  # annotate("text", x = Inf, y = -Inf, 
+  #          label = "good iDFS in pre.Tx &\npoor iDFS in post.Tx", 
+  #          vjust = 0, hjust=1, size=5) +
   coord_cartesian(clip = "off")  # Allow annotations to be outside the plot area
 
-# Place x- and y-axis at "Hazard Ratio = 1",   and include color legend:
+# Place x- and y-axis at "Hazard Ratio = 1",
+#   and include color legend with increased text size:
 
 p4 <- shift_axis_y(p4, y=1)
 p4 <- shift_axis_x(p4, x=1) +
-  labs(color = "Gene class")  + theme(legend.position = c(0.9, 0.8))
+  labs(color = "Gene class")  + 
+  theme(legend.position = c(0.9, 0.85),
+        legend.title=element_text(size=28), # increase legend title size
+        legend.text=element_text(size=28))  # increase legend text size
 
 # Save the plot as svg file
 
@@ -642,7 +652,9 @@ dev.off()
 
 # Generate an additional plot without gene names:  ####
 
-# plot without gene labels but increased dots
+# plot WITHOUT gene labels but increased dots
+#              and increased text size in legend
+
 scatplot6 <- ggplot(df, aes(x = pre.Tx, y = post.Tx, 
                             color = SubCluster_1080pairedSamples), 
                     guides(fill = FALSE, color = FALSE)) +
@@ -655,41 +667,44 @@ scatplot6 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
         plot.margin = margin(1, 1, 1, 1, "cm"),axis.title=element_blank(),
         axis.ticks.length=unit(.2, "cm")) +
   scale_x_continuous(limits = c(0.25, 4.7),  n.breaks=7) +
-  scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7) +
-  theme(plot.title = element_text(hjust = 0.5,vjust = 10,))
+  scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7)
 
 
-# Add annotations  
+# Add ONLY SELECTED annotations WITH INCREASED TEXT SIZES
 
 p6 <- scatplot6 +
   annotate("segment", x = -Inf, xend = Inf, y = 1, linewidth=1, yend = 1) +
   annotate("segment", x = 1, xend = 1, y = -Inf, linewidth=1, yend = Inf) +
   annotate("text", x = -Inf, y = 1, 
            label = "inverse HR in post.Tx \u2192 improved survival", 
-           angle = 90,size=4, hjust=0.5, vjust=-1.0,  color = "red") +
+           angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
   annotate("text", x = 1, y = -Inf, 
            label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.75,vjust=-36, size=4, color = "blue") +
-  annotate("text", x = -Inf, y = Inf, 
-           label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
-           vjust = 1, hjust=0, size=3.5) +
-  annotate("text", x = -Inf, y = -Inf, 
-           label = "poor iDFS in post.Tx & pre.Tx", 
-           vjust = 0, hjust=0, size=3.5) +
-  annotate("text", x = Inf, y = Inf, 
-           label = "good iDFS in post.Tx & pre.Tx", 
-           vjust = 1, hjust=1, size=3.5) +
-  annotate("text", x = Inf, y = -Inf, 
-           label = "good iDFS in pre.Tx &\npoor iDFS in post.Tx", 
-           vjust = 0, hjust=1, size=3.5) +
+           hjust=-1.00,vjust=-20, size=7, color = "blue") +
+  # annotate("text", x = -Inf, y = Inf, 
+  #          label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
+  #          vjust = 1, hjust=0, size=5) +
+  # annotate("text", x = -Inf, y = -Inf, 
+  #          label = "poor iDFS in post.Tx & pre.Tx", 
+  #          vjust = 0, hjust=0, size=5) +
+  # annotate("text", x = Inf, y = Inf, 
+  #          label = "good iDFS in post.Tx & pre.Tx", 
+  #          vjust = 1, hjust=1, size=5) +
+  # annotate("text", x = Inf, y = -Inf, 
+  #          label = "good iDFS in pre.Tx &\npoor iDFS in post.Tx", 
+  #          vjust = 0, hjust=1, size=5) +
   coord_cartesian(clip = "off")  # Allow annotations to be outside the plot area
 
 
-# Place x- and y-axis at "Hazard Ratio = 1",   and include color legend:
+# Place x- and y-axis at "Hazard Ratio = 1",
+#   and include color legend with increased text size:
 
 p6 <- shift_axis_y(p6, y=1)
 p6 <- shift_axis_x(p6, x=1) +
-  labs(color = "Gene clusters")  + theme(legend.position = c(0.9, 0.8))
+  labs(color = "Gene clusters")  +
+  theme(legend.position = c(0.9, 0.85),
+        legend.title=element_text(size=28), # increase legend title size
+        legend.text=element_text(size=28))  # increase legend text size
 
 
 ggsave ("./6_HRscat_BiopResec_335genes_col-subclust_Nolabs.svg", 

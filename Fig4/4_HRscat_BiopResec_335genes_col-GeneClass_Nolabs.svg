@@ -380,14 +380,8 @@
 <circle cx='211.64' cy='243.29' r='6.76' style='stroke-width: 0.71; stroke: #BEBEBE; fill: #BEBEBE;' />
 <line x1='34.02' y1='357.17' x2='979.65' y2='357.17' style='stroke-width: 2.13; stroke-linecap: butt;' />
 <line x1='221.89' y1='685.98' x2='221.89' y2='28.35' style='stroke-width: 2.13; stroke-linecap: butt;' />
-<text transform='translate(25.87,357.17) rotate(-90)' text-anchor='middle' style='font-size: 11.38px;fill: #FF0000; font-family: "Arial";' textLength='214.96px' lengthAdjust='spacingAndGlyphs'>inverse HR in post.Tx → improved survival</text>
-<text x='589.22' y='392.83' style='font-size: 11.38px;fill: #0000FF; font-family: "Arial";' textLength='209.90px' lengthAdjust='spacingAndGlyphs'>inverse HR in pre.Tx → improved survival</text>
-<text x='34.02' y='35.47' style='font-size: 9.96px; font-family: "Arial";' textLength='102.33px' lengthAdjust='spacingAndGlyphs'>good iDFS in post.Tx &amp;</text>
-<text x='34.02' y='49.81' style='font-size: 9.96px; font-family: "Arial";' textLength='86.28px' lengthAdjust='spacingAndGlyphs'>poor iDFS in pre.Tx</text>
-<text x='34.02' y='685.98' style='font-size: 9.96px; font-family: "Arial";' textLength='131.08px' lengthAdjust='spacingAndGlyphs'>poor iDFS in post.Tx &amp; pre.Tx</text>
-<text x='979.65' y='35.47' text-anchor='end' style='font-size: 9.96px; font-family: "Arial";' textLength='133.30px' lengthAdjust='spacingAndGlyphs'>good iDFS in post.Tx &amp; pre.Tx</text>
-<text x='979.65' y='671.64' text-anchor='end' style='font-size: 9.96px; font-family: "Arial";' textLength='97.91px' lengthAdjust='spacingAndGlyphs'>good iDFS in pre.Tx &amp;</text>
-<text x='979.65' y='685.98' text-anchor='end' style='font-size: 9.96px; font-family: "Arial";' textLength='90.71px' lengthAdjust='spacingAndGlyphs'>poor iDFS in post.Tx</text>
+<text transform='translate(19.76,357.17) rotate(-90)' text-anchor='middle' style='font-size: 19.92px;fill: #FF0000; font-family: "Arial";' textLength='376.19px' lengthAdjust='spacingAndGlyphs'>inverse HR in post.Tx → improved survival</text>
+<text x='589.22' y='400.86' style='font-size: 19.92px;fill: #0000FF; font-family: "Arial";' textLength='367.33px' lengthAdjust='spacingAndGlyphs'>inverse HR in pre.Tx → improved survival</text>
 <polyline points='221.89,362.83 221.89,357.17 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='415.07,362.83 415.07,357.17 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='608.26,362.83 608.26,357.17 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
@@ -408,28 +402,28 @@
 <polyline points='216.22,237.59 221.89,237.59 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <polyline points='216.22,118.02 221.89,118.02 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
 <line x1='221.89' y1='685.98' x2='221.89' y2='28.35' style='stroke-width: 1.07; stroke-linecap: butt;' />
-<rect x='837.65' y='86.08' width='94.88' height='147.59' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<text x='843.13' y='100.59' style='font-size: 11.00px; font-family: "Arial";' textLength='55.04px' lengthAdjust='spacingAndGlyphs'>Gene class</text>
-<rect x='843.13' y='107.23' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='115.87' r='6.76' style='stroke-width: 0.71; stroke: #32CD32; fill: #32CD32;' />
-<rect x='843.13' y='124.51' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='133.15' r='6.76' style='stroke-width: 0.71; stroke: #DA70D6; fill: #DA70D6;' />
-<rect x='843.13' y='141.79' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='150.43' r='6.76' style='stroke-width: 0.71; stroke: #BEBEBE; fill: #BEBEBE;' />
-<rect x='843.13' y='159.07' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='167.71' r='6.76' style='stroke-width: 0.71; stroke: #00BFFF; fill: #00BFFF;' />
-<rect x='843.13' y='176.35' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='184.99' r='6.76' style='stroke-width: 0.71; stroke: #FFA500; fill: #FFA500;' />
-<rect x='843.13' y='193.63' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='202.27' r='6.76' style='stroke-width: 0.71; stroke: #8B814C; fill: #8B814C;' />
-<rect x='843.13' y='210.91' width='17.28' height='17.28' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
-<circle cx='851.77' cy='219.55' r='6.76' style='stroke-width: 0.71; stroke: #FFFF00; fill: #FFFF00;' />
-<text x='865.89' y='119.02' style='font-size: 8.80px; font-family: "Arial";' textLength='58.23px' lengthAdjust='spacingAndGlyphs'>estrogen_early</text>
-<text x='865.89' y='136.30' style='font-size: 8.80px; font-family: "Arial";' textLength='31.30px' lengthAdjust='spacingAndGlyphs'>immune</text>
-<text x='865.89' y='153.58' style='font-size: 8.80px; font-family: "Arial";' textLength='20.07px' lengthAdjust='spacingAndGlyphs'>other</text>
-<text x='865.89' y='170.86' style='font-size: 8.80px; font-family: "Arial";' textLength='45.99px' lengthAdjust='spacingAndGlyphs'>proliferation</text>
-<text x='865.89' y='188.14' style='font-size: 8.80px; font-family: "Arial";' textLength='50.87px' lengthAdjust='spacingAndGlyphs'>repair_stress</text>
-<text x='865.89' y='205.42' style='font-size: 8.80px; font-family: "Arial";' textLength='52.32px' lengthAdjust='spacingAndGlyphs'>stromal_EMT</text>
-<text x='865.89' y='222.70' style='font-size: 8.80px; font-family: "Arial";' textLength='61.16px' lengthAdjust='spacingAndGlyphs'>tissue_handling</text>
+<rect x='770.93' y='15.01' width='228.33' height='223.97' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='776.41' y='43.48' style='font-size: 28.00px; font-family: "Arial";' textLength='140.08px' lengthAdjust='spacingAndGlyphs'>Gene class</text>
+<rect x='776.41' y='51.91' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='64.88' r='6.76' style='stroke-width: 0.71; stroke: #32CD32; fill: #32CD32;' />
+<rect x='776.41' y='77.85' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='90.82' r='6.76' style='stroke-width: 0.71; stroke: #DA70D6; fill: #DA70D6;' />
+<rect x='776.41' y='103.79' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='116.76' r='6.76' style='stroke-width: 0.71; stroke: #BEBEBE; fill: #BEBEBE;' />
+<rect x='776.41' y='129.73' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='142.70' r='6.76' style='stroke-width: 0.71; stroke: #00BFFF; fill: #00BFFF;' />
+<rect x='776.41' y='155.67' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='168.64' r='6.76' style='stroke-width: 0.71; stroke: #FFA500; fill: #FFA500;' />
+<rect x='776.41' y='181.62' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='194.59' r='6.76' style='stroke-width: 0.71; stroke: #8B814C; fill: #8B814C;' />
+<rect x='776.41' y='207.56' width='17.28' height='25.94' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='785.05' cy='220.53' r='6.76' style='stroke-width: 0.71; stroke: #FFFF00; fill: #FFFF00;' />
+<text x='799.17' y='74.90' style='font-size: 28.00px; font-family: "Arial";' textLength='185.24px' lengthAdjust='spacingAndGlyphs'>estrogen_early</text>
+<text x='799.17' y='100.84' style='font-size: 28.00px; font-family: "Arial";' textLength='99.60px' lengthAdjust='spacingAndGlyphs'>immune</text>
+<text x='799.17' y='126.78' style='font-size: 28.00px; font-family: "Arial";' textLength='63.82px' lengthAdjust='spacingAndGlyphs'>other</text>
+<text x='799.17' y='152.73' style='font-size: 28.00px; font-family: "Arial";' textLength='146.30px' lengthAdjust='spacingAndGlyphs'>proliferation</text>
+<text x='799.17' y='178.67' style='font-size: 28.00px; font-family: "Arial";' textLength='161.85px' lengthAdjust='spacingAndGlyphs'>repair_stress</text>
+<text x='799.17' y='204.61' style='font-size: 28.00px; font-family: "Arial";' textLength='166.49px' lengthAdjust='spacingAndGlyphs'>stromal_EMT</text>
+<text x='799.17' y='230.55' style='font-size: 28.00px; font-family: "Arial";' textLength='194.61px' lengthAdjust='spacingAndGlyphs'>tissue_handling</text>
 </g>
 </svg>
