@@ -341,7 +341,7 @@ p1 <- scatplot1 +
            angle = 90,size=4, hjust=0.5, vjust=-1.0,  color = "red") +
   annotate("text", x = 1, y = -Inf, 
            label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.75,vjust=-36, size=4, color = "blue") +
+           hjust=-2.4,vjust=-37, size=4, color = "blue") +
   annotate("text", x = -Inf, y = Inf, 
            label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
            vjust = 1, hjust=0, size=3.5) +
@@ -375,16 +375,17 @@ dev.off()
 
 # plot WITHOUT gene labels but increased dots
 #              and increased text size in legend
+#              margins increased to fit to increased legend size
 
 scatplot2 <- ggplot(df, aes(x = pre.Tx, y = post.Tx, 
                             color = Cluster_1080pairedSamples), 
                     guides(fill = FALSE, color = FALSE)) +
   scale_color_manual(values=c("orange", "deepskyblue","darkgreen",
                               "lightgoldenrod4")) +
-  geom_point(size=6) +
+  geom_point(size=11) +
   # geom_text_repel(aes(label = Gene),size=3, box.padding = 0.2, max.overlaps=Inf) +
   theme(panel.background = element_rect(fill="white"),  
-        plot.margin = margin(1, 1, 1, 1, "cm"),axis.title=element_blank(),
+        plot.margin = margin(3, 4, 1, 1, "cm"),axis.title=element_blank(),
         axis.ticks.length=unit(.2, "cm")) +
   scale_x_continuous(limits = c(0.25, 4.7),  n.breaks=7) +
   scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7)
@@ -395,12 +396,12 @@ scatplot2 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
 p2 <- scatplot2 +
   annotate("segment", x = -Inf, xend = Inf, y = 1, linewidth=1, yend = 1) +
   annotate("segment", x = 1, xend = 1, y = -Inf, linewidth=1, yend = Inf) +
-  annotate("text", x = -Inf, y = 1, 
-           label = "inverse HR in post.Tx \u2192 improved survival", 
-           angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
-  annotate("text", x = 1, y = -Inf, 
-           label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.00,vjust=-20, size=7, color = "blue") +
+  # annotate("text", x = -Inf, y = 1, 
+  #          label = "inverse HR in post.Tx \u2192 improved survival", 
+  #          angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
+  # annotate("text", x = 1, y = -Inf, 
+  #          label = "inverse HR in pre.Tx \u2192 improved survival", 
+  #          hjust=-1.00,vjust=-20, size=7, color = "blue") +
   # annotate("text", x = -Inf, y = Inf, 
   #          label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
   #          vjust = 1, hjust=0, size=5) +
@@ -422,7 +423,7 @@ p2 <- scatplot2 +
 p2 <- shift_axis_y(p2, y=1)
 p2 <- shift_axis_x(p2, x=1) +
   labs(color = "Gene clusters")  + 
-  theme(legend.position = c(0.9, 0.85),
+  theme(legend.position = c(0.95, 0.9),
         legend.title=element_text(size=28), # increase legend title size
         legend.text=element_text(size=28))  # increase legend text size
 
@@ -483,7 +484,7 @@ p3 <- scatplot3 +
            angle = 90,size=4, hjust=0.5, vjust=-1.0,  color = "red") +
   annotate("text", x = 1, y = -Inf, 
            label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.75,vjust=-36, size=4, color = "blue") +
+           hjust=-2.4,vjust=-37, size=4, color = "blue") +
   annotate("text", x = -Inf, y = Inf, 
            label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
            vjust = 1, hjust=0, size=3.5) +
@@ -517,16 +518,17 @@ dev.off()
 
 # plot WITHOUT gene labels but increased dots
 #              and increased text size in legend
+#              margins increased to fit to increased legend size
 
 scatplot4 <- ggplot(df, aes(x = pre.Tx, y = post.Tx, 
                             color = gene.class), 
                     guides(fill = FALSE, color = FALSE)) +
   scale_color_manual(values=c("limegreen", "orchid", "grey", "deepskyblue",
                               "orange", "lightgoldenrod4",  "yellow")) +
-  geom_point(size=6) +
+  geom_point(size=11) +
   # geom_text_repel(aes(label = Gene),size=3, box.padding = 0.2, max.overlaps=Inf) +
   theme(panel.background = element_rect(fill="white"),  
-        plot.margin = margin(1, 1, 1, 1, "cm"),axis.title=element_blank(),
+        plot.margin = margin(3, 4, 1, 1, "cm"),axis.title=element_blank(),
         axis.ticks.length=unit(.2, "cm")) +
   scale_x_continuous(limits = c(0.25, 4.7),  n.breaks=7) +
   scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7)
@@ -536,12 +538,12 @@ scatplot4 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
 p4 <- scatplot4 +
   annotate("segment", x = -Inf, xend = Inf, y = 1, linewidth=1, yend = 1) +
   annotate("segment", x = 1, xend = 1, y = -Inf, linewidth=1, yend = Inf) +
-  annotate("text", x = -Inf, y = 1, 
-           label = "inverse HR in post.Tx \u2192 improved survival", 
-           angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
-  annotate("text", x = 1, y = -Inf, 
-           label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.00,vjust=-20, size=7, color = "blue") +
+  # annotate("text", x = -Inf, y = 1, 
+  #          label = "inverse HR in post.Tx \u2192 improved survival", 
+  #          angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
+  # annotate("text", x = 1, y = -Inf, 
+  #          label = "inverse HR in pre.Tx \u2192 improved survival", 
+  #          hjust=-1.00,vjust=-20, size=7, color = "blue") +
   # annotate("text", x = -Inf, y = Inf, 
   #          label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
   #          vjust = 1, hjust=0, size=5) +
@@ -562,7 +564,7 @@ p4 <- scatplot4 +
 p4 <- shift_axis_y(p4, y=1)
 p4 <- shift_axis_x(p4, x=1) +
   labs(color = "Gene class")  + 
-  theme(legend.position = c(0.9, 0.85),
+  theme(legend.position = c(0.95, 0.9),
         legend.title=element_text(size=28), # increase legend title size
         legend.text=element_text(size=28))  # increase legend text size
 
@@ -621,7 +623,7 @@ p5 <- scatplot5 +
            angle = 90,size=4, hjust=0.5, vjust=-1.0,  color = "red") +
   annotate("text", x = 1, y = -Inf, 
            label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.75,vjust=-36, size=4, color = "blue") +
+           hjust=-2.4,vjust=-37, size=4, color = "blue") +
   annotate("text", x = -Inf, y = Inf, 
            label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
            vjust = 1, hjust=0, size=3.5) +
@@ -654,6 +656,7 @@ dev.off()
 
 # plot WITHOUT gene labels but increased dots
 #              and increased text size in legend
+#              margins increased to fit to increased legend size
 
 scatplot6 <- ggplot(df, aes(x = pre.Tx, y = post.Tx, 
                             color = SubCluster_1080pairedSamples), 
@@ -661,10 +664,10 @@ scatplot6 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
   scale_color_manual(values=c("orchid", "orange", "limegreen",
                               "chocolate", "deepskyblue", "darkgreen",
                               "lightgoldenrod4")) +
-  geom_point(size=6) +
+  geom_point(size=11) +
   # geom_text_repel(aes(label = Gene),size=3, box.padding = 0.2, max.overlaps=Inf) +
   theme(panel.background = element_rect(fill="white"),  
-        plot.margin = margin(1, 1, 1, 1, "cm"),axis.title=element_blank(),
+        plot.margin = margin(3, 4, 1, 1, "cm"),axis.title=element_blank(),
         axis.ticks.length=unit(.2, "cm")) +
   scale_x_continuous(limits = c(0.25, 4.7),  n.breaks=7) +
   scale_y_continuous(limits = c(0.5, 1.5),n.breaks=7)
@@ -675,12 +678,12 @@ scatplot6 <- ggplot(df, aes(x = pre.Tx, y = post.Tx,
 p6 <- scatplot6 +
   annotate("segment", x = -Inf, xend = Inf, y = 1, linewidth=1, yend = 1) +
   annotate("segment", x = 1, xend = 1, y = -Inf, linewidth=1, yend = Inf) +
-  annotate("text", x = -Inf, y = 1, 
-           label = "inverse HR in post.Tx \u2192 improved survival", 
-           angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
-  annotate("text", x = 1, y = -Inf, 
-           label = "inverse HR in pre.Tx \u2192 improved survival", 
-           hjust=-1.00,vjust=-20, size=7, color = "blue") +
+  # annotate("text", x = -Inf, y = 1, 
+  #          label = "inverse HR in post.Tx \u2192 improved survival", 
+  #          angle = 90,size=7, hjust=0.5, vjust=-1.0,  color = "red") +
+  # annotate("text", x = 1, y = -Inf, 
+  #          label = "inverse HR in pre.Tx \u2192 improved survival", 
+  #          hjust=-1.00,vjust=-20, size=7, color = "blue") +
   # annotate("text", x = -Inf, y = Inf, 
   #          label = "good iDFS in post.Tx &\npoor iDFS in pre.Tx", 
   #          vjust = 1, hjust=0, size=5) +
@@ -702,7 +705,7 @@ p6 <- scatplot6 +
 p6 <- shift_axis_y(p6, y=1)
 p6 <- shift_axis_x(p6, x=1) +
   labs(color = "Gene clusters")  +
-  theme(legend.position = c(0.9, 0.85),
+  theme(legend.position = c(0.95, 0.9),
         legend.title=element_text(size=28), # increase legend title size
         legend.text=element_text(size=28))  # increase legend text size
 
