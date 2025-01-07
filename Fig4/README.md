@@ -13,7 +13,7 @@ Dynamics of molecular heterogeneity in high-risk luminal breast cancer - from in
 ### Relationship of gene clusters and survival:
 ### Scatter plots of 1/HR for biopsy vs resect samples for all 335 genes colored according different classifications of genes 
 
-1. [*HRscat_BiopResec_335genes_Diff-Colors.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig4/HRscat_BiopResec_335genes_Diff-Colors.pdf):  An R Markdown file of the analysis comparing the prognostic value of individual genes and their association with gene clusters from unsupervised clustering of Penelope-B samples. Data are presented as scatter plots of (inverted) Hazard Ratios for each of the 335 genes measured in preTx- and postTx biopsies. and dots are colored according unsupervised clustering and functional annotations.
+1. [*HRscat_BiopResec_335genes_Diff-Colors.pdf*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig4/HRscat_BiopResec_335genes_Diff-Colors.pdf):  An R Markdown file of the analysis comparing the prognostic value of individual genes and their association with gene clusters from unsupervised clustering of Penelope-B samples. Data are presented as scatter plots of (inverted) Hazard Ratios for each of the 335 genes measured in preTx- and postTx biopsies, and dots are colored according unsupervised clustering and functional annotations.
 2. [*HRscat_BiopResec_335genes_Diff-Colors.R*](https://github.com/tkarn/Penelope-HTG/blob/main/Fig4/HRscat_BiopResec_335genes_Diff-Colors.R):  The R-script that generates this R-Markdown file.
 
 #### Input files:
