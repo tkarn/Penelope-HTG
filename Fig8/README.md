@@ -7,6 +7,8 @@ https://doi.org/10.1016/j.ccell.2025.01.002
 
 Dynamics of molecular heterogeneity in high-risk luminal breast cancer - From intrinsic to adaptive subtyping.
 
+PMID: 39933898
+
 ************************************************************
 
 ## This subdirectory contains the code and data to generate Figure 8 from the paper:
