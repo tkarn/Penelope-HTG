@@ -3,10 +3,13 @@
 
 ## Supplementary Resource to:  
 
-Denkert C et al. 2025, Cancer Cell Feb 10;43(2):232-247.e4.
+Denkert C et al. 2025, Cancer Cell 43, 1–16, February 10, 2025 
 https://doi.org/10.1016/j.ccell.2025.01.002
+
 Dynamics of molecular heterogeneity in high-risk luminal breast cancer - From intrinsic to adaptive subtyping.
+
 PMID: 39933898
+
 ************************************************************
 
 ## This resource contains the following data regarding the analyses described in the paper:
